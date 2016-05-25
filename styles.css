@@ -1,0 +1,58 @@
+body {
+  /*background: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Z50HOJW78Q.jpg");*/
+  /*background-blend-mode: ;*/
+}
+
+h1 {
+  font-family: 'EB Garamond', 'Serif';
+  font-size: 10em;
+  color: pink;
+}
+
+h4 {
+  font-family: 'EB Garamond', 'Serif';
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.col-md-12 {
+  margin: .5em;
+}
+
+input {
+  border-radius: 5%;
+  width: 20em;
+  height: 3em;
+  font-family: 'Quicksand', 'Serif';
+  text-align: center;
+}
+
+#main_img {
+  /*background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/280h/D89ESH3WK7.jpg');*/
+  height:20em;
+  width: 25%;
+  border-radius: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.btn {
+  font-family: 'EB Garamond', 'Serif';
+  color: white;
+  background-color: black;
+}
+
+.results{
+  text-align: center;
+}
+
+footer {
+  background-color: #A4A4A4;
+  color: black;
+  font-family: 'EB Garamond', 'Serif';
+  font-size: 1.5em;
+  text-align: center;
+}
