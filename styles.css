@@ -1,68 +1,58 @@
 h1 {
-  font-family: 'EB Garamond', 'Serif';
-  font-size: 10em;
-  color: pink;
+    font-family: 'EB Garamond', 'Serif';
+    font-size: 10em;
+    color: pink;
 }
-
 h4 {
-  font-family: 'EB Garamond', 'Serif';
+    font-family: 'EB Garamond', 'Serif';
 }
-
 .wrapper {
-  text-align: center;
-  height: 100%;
+    text-align: center;
+    height: 100%;
 }
-
 .col-md-12 {
-  margin: .5em;
+    margin: .5em;
 }
-
 input {
-  border-radius: 5%;
-  width: 20em;
-  height: 3em;
-  font-family: 'Quicksand', 'Serif';
-  text-align: center;
-  margin: 2em;
+    border-radius: 5%;
+    width: 20em;
+    height: 3em;
+    font-family: 'Quicksand', 'Serif';
+    text-align: center;
+    margin: 2em;
 }
-
 #main_img {
-  height:20em;
-  width: 27%;
-  border-radius: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
+    height: 20em;
+    width: 27%;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
-
 .btn {
-  font-family: 'EB Garamond', 'Serif';
-  color: white;
-  background-color: black;
-  margin: 2em;
+    font-family: 'EB Garamond', 'Serif';
+    color: white;
+    background-color: black;
+    margin: 2em;
 }
-
-.results{
-  text-align: center;
+.results {
+    text-align: center;
 }
-
 footer {
-  background-color: #A4A4A4;
-  color: black;
-  font-family: 'EB Garamond', 'Serif';
-  font-size: 1.5em;
-  text-align: center;
-  height: 2em;
-  margin-top: 5em;
-  width: 100%;
+    background-color: #A4A4A4;
+    color: black;
+    font-family: 'EB Garamond', 'Serif';
+    font-size: 1.5em;
+    text-align: center;
+    height: 2em;
+    margin-top: 5em;
+    width: 100%;
 }
-
 .nopadding {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
-
 p {
-  position: relative;
-  top: .25em;
+    position: relative;
+    top: .25em;
 }
