@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -8,52 +9,55 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type= "text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Quicksand|EB+Garamond|Clicker+Script">
-  </head>
-  <body class="container-fluid">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand|EB+Garamond|Clicker+Script">
+</head>
+
+<body class="container-fluid">
     <div class="wrapper">
-      <img id="main_img" src="https://snap-photos.s3.amazonaws.com/img-thumbs/280h/D89ESH3WK7.jpg"/>
-      <h1 id="">Hangry?</h1>
-      <form class="nav-form" action="index.html" method="post">
-      <div class="row">
-        <div class="col-md-12">
-          <input type="text"  id="search-by-city" name="search-by-city" placeholder="location" autofocus="">
-        </div>
-      </div>
-      <!-- <div class="row">
+        <img id="main_img" src="https://snap-photos.s3.amazonaws.com/img-thumbs/280h/D89ESH3WK7.jpg" />
+        <h1 id="">hangry?</h1>
+        <form class="nav-form">
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" id="search-by-city" name="search-by-city" placeholder="zip / city" autofocus="">
+                </div>
+            </div>
+            <!-- <div class="row">
         <div class="col-md-12">
           <input type="text" id="search-by-keyword" name="search-by-keyword" placeholder="keyword">
         </div>
       </div> -->
-      <div class="row">
-        <div class="col-md-12" id="button">
-          <button type="button" class="btn" value="Reset" name="button">find me food</button>
+            <div class="row">
+                <div class="col-md-12" id="button">
+                    <button type="submit" class="btn" >find me food</button>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-12" id="newSearch">
+                <a href=""></a>
+            </div>
         </div>
-      </div>
-      </form>
-      <div class="row">
-        <div class="col-md-12" id="newSearch">
-
+        <div class="row">
+            <div class="col-md-12" id="results">
+                <p id="results-for"> </p>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12" id="results">
-        </div>
-      </div>
     </div>
     <!-- closing tag for wrapper here  -->
     <!-- TODO: insert loading wheel here -->
     <div class="row">
-      <div class="col-md-12">
-        <footer>
-          get your grub on
-        </footer>
-      </div>
+        <div class="col-md-12 nopadding" id="footer">
+            <footer>
+                <p>get your grub on</p>
+            </footer>
+        </div>
     </div>
 
 
-    <script src="app.js">  </script>
-  </body>
+    <script src="app.js">
+    </script>
+</body>
+
 </html>

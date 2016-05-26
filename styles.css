@@ -1,8 +1,3 @@
-body {
-  /*background: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Z50HOJW78Q.jpg");*/
-  /*background-blend-mode: ;*/
-}
-
 h1 {
   font-family: 'EB Garamond', 'Serif';
   font-size: 10em;
@@ -15,6 +10,7 @@ h4 {
 
 .wrapper {
   text-align: center;
+  height: 100%;
 }
 
 .col-md-12 {
@@ -27,12 +23,12 @@ input {
   height: 3em;
   font-family: 'Quicksand', 'Serif';
   text-align: center;
+  margin: 2em;
 }
 
 #main_img {
-  /*background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/280h/D89ESH3WK7.jpg');*/
   height:20em;
-  width: 25%;
+  width: 27%;
   border-radius: 3%;
   margin-left: auto;
   margin-right: auto;
@@ -43,6 +39,7 @@ input {
   font-family: 'EB Garamond', 'Serif';
   color: white;
   background-color: black;
+  margin: 2em;
 }
 
 .results{
@@ -55,4 +52,17 @@ footer {
   font-family: 'EB Garamond', 'Serif';
   font-size: 1.5em;
   text-align: center;
+  height: 2em;
+  margin-top: 5em;
+  width: 100%;
+}
+
+.nopadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+p {
+  position: relative;
+  top: .25em;
 }
