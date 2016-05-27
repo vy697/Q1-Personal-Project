@@ -25,7 +25,7 @@ function getRestaurants(event) {
     } else {
         myURL = 'https://api.locu.com/v1_0/venue/search/?postal_code=';
     }
-    var proxyUrl = 'http://jsonp.afeld.me/?url=';
+    var proxyUrl = 'https://jsonp.afeld.me/?url=';
     var apiKey = '&api_key=2f1a3ad3a4d301a970b151d4cc15107c1ed23648';
     myURL += userCityAndZip + apiKey;
     var finalUrl = proxyUrl + encodeURIComponent(myURL);
@@ -35,17 +35,16 @@ function getRestaurants(event) {
 }
 
 function generateResults(err, data) {
-    console.log('generateResults starts here')
     if (!err && err !== 0) {
         var restaurantArr = data['objects'];
         if (restaurantArr.length !== 0) {
-            newSearch.href = 'http://localhost:8080/';
+            newSearch.href = 'https://find-me-food.firebaseapp.com/';
             newSearch.innerHTML = 'New Search';
             newSearch.style.color = 'black';
             newSearch.style.fontFamily = 'Clicker Script';
             newSearch.style.fontSize = '2em';
             for (var x = 0; x < restaurantArr.length; x++) {
-                var categoryArr = restaurantArr[x].categories;
+                var categoryArr = restaurantArr[x]['categories'];
                 var restaurantList = restaurantArr[x]['name'];
                 var restaurantURL = restaurantArr[x]['website_url'];
                 var restaurantAddress = restaurantArr[x]['street_address'];
@@ -83,7 +82,7 @@ function generateResults(err, data) {
                     address.style.fontFamily = 'Quicksand';
                     address.style.fontSize = '1.5em';
                     address.style.color = 'black';
-                    var mapURL = 'http://maps.google.com/maps?q=';
+                    var mapURL = 'https://maps.google.com/maps?q=';
                     var mapLink = mapURL + encodeURIComponent(completeAddress);
                     textBox.appendChild(address);
 
@@ -116,7 +115,7 @@ function generateResults(err, data) {
 }
 
 function reset() {
-    var homepage = 'http://localhost:8080/index.html';
+    var homepage = 'https://find-me-food.firebaseapp.com/';
     window.location = homepage;
 }
 

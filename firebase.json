@@ -1,0 +1,9 @@
+{
+  "firebase": "find-me-food",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
